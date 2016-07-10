@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F275011D328AD600433E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F275001D328AD600433E5F /* main.m */; };
+		26F275041D328AD600433E5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F275031D328AD600433E5F /* AppDelegate.m */; };
+		26F275071D328AD600433E5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F275061D328AD600433E5F /* ViewController.m */; };
+		26F2750A1D328AD600433E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F275081D328AD600433E5F /* Main.storyboard */; };
+		26F2750D1D328AD600433E5F /* MiaoComic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26F2750B1D328AD600433E5F /* MiaoComic.xcdatamodeld */; };
+		26F2750F1D328AD600433E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F2750E1D328AD600433E5F /* Assets.xcassets */; };
+		26F275121D328AD600433E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F275101D328AD600433E5F /* LaunchScreen.storyboard */; };
+		26F2751D1D328AD600433E5F /* MiaoComicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F2751C1D328AD600433E5F /* MiaoComicTests.m */; };
+		26F275281D328AD700433E5F /* MiaoComicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F275271D328AD700433E5F /* MiaoComicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F275191D328AD600433E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F274F41D328AD600433E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F274FB1D328AD600433E5F;
+			remoteInfo = MiaoComic;
+		};
+		26F275241D328AD600433E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F274F41D328AD600433E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F274FB1D328AD600433E5F;
+			remoteInfo = MiaoComic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F274FC1D328AD600433E5F /* MiaoComic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiaoComic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F275001D328AD600433E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F275021D328AD600433E5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F275031D328AD600433E5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F275051D328AD600433E5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26F275061D328AD600433E5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26F275091D328AD600433E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F2750C1D328AD600433E5F /* MiaoComic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiaoComic.xcdatamodel; sourceTree = "<group>"; };
+		26F2750E1D328AD600433E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F275111D328AD600433E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F275131D328AD600433E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F275181D328AD600433E5F /* MiaoComicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiaoComicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F2751C1D328AD600433E5F /* MiaoComicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiaoComicTests.m; sourceTree = "<group>"; };
+		26F2751E1D328AD600433E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F275231D328AD600433E5F /* MiaoComicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiaoComicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F275271D328AD700433E5F /* MiaoComicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiaoComicUITests.m; sourceTree = "<group>"; };
+		26F275291D328AD700433E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F274F91D328AD600433E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F275151D328AD600433E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F275201D328AD600433E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F274F31D328AD600433E5F = {
+			isa = PBXGroup;
+			children = (
+				26F274FE1D328AD600433E5F /* MiaoComic */,
+				26F2751B1D328AD600433E5F /* MiaoComicTests */,
+				26F275261D328AD600433E5F /* MiaoComicUITests */,
+				26F274FD1D328AD600433E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F274FD1D328AD600433E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F274FC1D328AD600433E5F /* MiaoComic.app */,
+				26F275181D328AD600433E5F /* MiaoComicTests.xctest */,
+				26F275231D328AD600433E5F /* MiaoComicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F274FE1D328AD600433E5F /* MiaoComic */ = {
+			isa = PBXGroup;
+			children = (
+				26F275021D328AD600433E5F /* AppDelegate.h */,
+				26F275031D328AD600433E5F /* AppDelegate.m */,
+				26F275051D328AD600433E5F /* ViewController.h */,
+				26F275061D328AD600433E5F /* ViewController.m */,
+				26F275081D328AD600433E5F /* Main.storyboard */,
+				26F2750E1D328AD600433E5F /* Assets.xcassets */,
+				26F275101D328AD600433E5F /* LaunchScreen.storyboard */,
+				26F275131D328AD600433E5F /* Info.plist */,
+				26F2750B1D328AD600433E5F /* MiaoComic.xcdatamodeld */,
+				26F274FF1D328AD600433E5F /* Supporting Files */,
+			);
+			path = MiaoComic;
+			sourceTree = "<group>";
+		};
+		26F274FF1D328AD600433E5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F275001D328AD600433E5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26F2751B1D328AD600433E5F /* MiaoComicTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F2751C1D328AD600433E5F /* MiaoComicTests.m */,
+				26F2751E1D328AD600433E5F /* Info.plist */,
+			);
+			path = MiaoComicTests;
+			sourceTree = "<group>";
+		};
+		26F275261D328AD600433E5F /* MiaoComicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26F275271D328AD700433E5F /* MiaoComicUITests.m */,
+				26F275291D328AD700433E5F /* Info.plist */,
+			);
+			path = MiaoComicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F274FB1D328AD600433E5F /* MiaoComic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F2752C1D328AD700433E5F /* Build configuration list for PBXNativeTarget "MiaoComic" */;
+			buildPhases = (
+				26F274F81D328AD600433E5F /* Sources */,
+				26F274F91D328AD600433E5F /* Frameworks */,
+				26F274FA1D328AD600433E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiaoComic;
+			productName = MiaoComic;
+			productReference = 26F274FC1D328AD600433E5F /* MiaoComic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F275171D328AD600433E5F /* MiaoComicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F2752F1D328AD700433E5F /* Build configuration list for PBXNativeTarget "MiaoComicTests" */;
+			buildPhases = (
+				26F275141D328AD600433E5F /* Sources */,
+				26F275151D328AD600433E5F /* Frameworks */,
+				26F275161D328AD600433E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F2751A1D328AD600433E5F /* PBXTargetDependency */,
+			);
+			name = MiaoComicTests;
+			productName = MiaoComicTests;
+			productReference = 26F275181D328AD600433E5F /* MiaoComicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F275221D328AD600433E5F /* MiaoComicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F275321D328AD700433E5F /* Build configuration list for PBXNativeTarget "MiaoComicUITests" */;
+			buildPhases = (
+				26F2751F1D328AD600433E5F /* Sources */,
+				26F275201D328AD600433E5F /* Frameworks */,
+				26F275211D328AD600433E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F275251D328AD600433E5F /* PBXTargetDependency */,
+			);
+			name = MiaoComicUITests;
+			productName = MiaoComicUITests;
+			productReference = 26F275231D328AD600433E5F /* MiaoComicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F274F41D328AD600433E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kurusagi;
+				TargetAttributes = {
+					26F274FB1D328AD600433E5F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					26F275171D328AD600433E5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 26F274FB1D328AD600433E5F;
+					};
+					26F275221D328AD600433E5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 26F274FB1D328AD600433E5F;
+					};
+				};
+			};
+			buildConfigurationList = 26F274F71D328AD600433E5F /* Build configuration list for PBXProject "MiaoComic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F274F31D328AD600433E5F;
+			productRefGroup = 26F274FD1D328AD600433E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F274FB1D328AD600433E5F /* MiaoComic */,
+				26F275171D328AD600433E5F /* MiaoComicTests */,
+				26F275221D328AD600433E5F /* MiaoComicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F274FA1D328AD600433E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F275121D328AD600433E5F /* LaunchScreen.storyboard in Resources */,
+				26F2750F1D328AD600433E5F /* Assets.xcassets in Resources */,
+				26F2750A1D328AD600433E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F275161D328AD600433E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F275211D328AD600433E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F274F81D328AD600433E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F275071D328AD600433E5F /* ViewController.m in Sources */,
+				26F275041D328AD600433E5F /* AppDelegate.m in Sources */,
+				26F275011D328AD600433E5F /* main.m in Sources */,
+				26F2750D1D328AD600433E5F /* MiaoComic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F275141D328AD600433E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F2751D1D328AD600433E5F /* MiaoComicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F2751F1D328AD600433E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F275281D328AD700433E5F /* MiaoComicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F2751A1D328AD600433E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F274FB1D328AD600433E5F /* MiaoComic */;
+			targetProxy = 26F275191D328AD600433E5F /* PBXContainerItemProxy */;
+		};
+		26F275251D328AD600433E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F274FB1D328AD600433E5F /* MiaoComic */;
+			targetProxy = 26F275241D328AD600433E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F275081D328AD600433E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F275091D328AD600433E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F275101D328AD600433E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F275111D328AD600433E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F2752A1D328AD700433E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F2752B1D328AD700433E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F2752D1D328AD700433E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiaoComic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.MiaoComic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26F2752E1D328AD700433E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiaoComic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.MiaoComic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26F275301D328AD700433E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiaoComicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.MiaoComicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiaoComic.app/MiaoComic";
+			};
+			name = Debug;
+		};
+		26F275311D328AD700433E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiaoComicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.MiaoComicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiaoComic.app/MiaoComic";
+			};
+			name = Release;
+		};
+		26F275331D328AD700433E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiaoComicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.MiaoComicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiaoComic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		26F275341D328AD700433E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiaoComicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurusagi.MiaoComicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiaoComic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F274F71D328AD600433E5F /* Build configuration list for PBXProject "MiaoComic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F2752A1D328AD700433E5F /* Debug */,
+				26F2752B1D328AD700433E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F2752C1D328AD700433E5F /* Build configuration list for PBXNativeTarget "MiaoComic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F2752D1D328AD700433E5F /* Debug */,
+				26F2752E1D328AD700433E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26F2752F1D328AD700433E5F /* Build configuration list for PBXNativeTarget "MiaoComicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F275301D328AD700433E5F /* Debug */,
+				26F275311D328AD700433E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26F275321D328AD700433E5F /* Build configuration list for PBXNativeTarget "MiaoComicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F275331D328AD700433E5F /* Debug */,
+				26F275341D328AD700433E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26F2750B1D328AD600433E5F /* MiaoComic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26F2750C1D328AD600433E5F /* MiaoComic.xcdatamodel */,
+			);
+			currentVersion = 26F2750C1D328AD600433E5F /* MiaoComic.xcdatamodel */;
+			path = MiaoComic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26F274F41D328AD600433E5F /* Project object */;
+}
